@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f1d8a9;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.note-form input {
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: calc(100% - 20px);
+}
+.note-form button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.note-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.note-item h3 {
+  margin: 0 0 5px;
+}
+
+.ongoing-task {
+  border: 1px solid #007bff; /* Blue border */
+  background-color: #e9f3ff;
+  color: #004085;
+}
+
+.completed-task {
+  border: 1px solid #28a745; /* Green border */
+  background-color: #e6ffed;
+  color: #155724;
+}
+
+
+.search-bar {
+  width: 98%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+.columns {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.columns > div {
+  width: 48%;
+}
+.info-text {
+  font-size: 0.9em;
+  color: #e62424;
+  margin-bottom: 10px;
+}
+
+.note-item p.overdue {
+  color: red;
+  font-weight: bold;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #888;
+}
