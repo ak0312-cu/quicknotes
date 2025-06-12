@@ -42,12 +42,20 @@ function App() {
 
   return (
     <div className="container">
-      <h1>
-        <img src="/QuickyNotes.jpg" alt="icon" style={{ width: "100px", verticalAlign: "middle", marginRight: "-10px" }} />
-        Quicky Notes
-      </h1>
+      <div className="header-row">
+        <div className="title">
+          <img src="/QuickyNotes.jpg" alt="icon" className="logo" />
+          <div>
+            <h1 className="main-title">Quicky Notes</h1>
+            <p className="subtitle">Your smart, simple note-taking companion 📝</p>
+          </div>
+        </div>
 
-      <SearchBar setSearch={setSearch} />
+        <div className="search-bar-container">
+          <SearchBar setSearch={setSearch} />
+        </div>
+      </div>
+
       <NoteForm addNote={addNote} />
       <div className="columns">
         <div>
@@ -60,7 +68,8 @@ function App() {
           <p className="info-text">Completed tasks are removed permanently after 2 days</p>
         </div>
       </div>
-      <footer>Made with ❤️ by AK</footer>
+      <footer>From Due to Done — Where Tasks Meet Triumph.</footer>
+      <footer>©Made by AK</footer>
     </div>
     
   );

@@ -73,9 +73,56 @@ body {
 
 
 footer {
+  font-family: Cursive;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 10px;
+  line-height: 0;
   font-size: 0.9rem;
   color: #888;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.search-bar-container {
+  flex-shrink: 0;
+}
+
+.search-bar {
+  width: 250px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.subtitle {
+  margin: 4px 0 0;
+  font-size: 1rem;
+  color: #666;
 }

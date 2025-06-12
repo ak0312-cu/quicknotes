@@ -5,7 +5,7 @@ function SearchBar({ setSearch }) {
     <input
       type="text"
       className="search-bar"
-      placeholder="Search notes..."
+      placeholder="Search notes"
       onChange={(e) => setSearch(e.target.value)}
     />
   );
