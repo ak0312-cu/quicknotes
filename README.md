@@ -9,7 +9,7 @@ A simple and efficient browser-based note-taking web application built with Reac
 
 ## 🚀 Features
 
-- ✅ **Add, Edit, and Delete Notes**
+- ✅ **Add, Search and Delete Notes**
 - 🔍 **Search and Filter by Title or Tags**
 - 🏷️ **Tagging Support for Categorizing Notes**
 - 📅 **Set Due Dates via Calendar Picker**
@@ -23,7 +23,7 @@ A simple and efficient browser-based note-taking web application built with Reac
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js (with Hooks)
+- **Frontend**: React.js (with Hooks: useState and useEffect)
 - **Styling**: CSS3
 - **Data Storage**: Browser `localStorage`
 - **Deployment**: Vercel
