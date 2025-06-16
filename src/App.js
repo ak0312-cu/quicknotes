@@ -32,10 +32,13 @@ function App() {
     ));
   };
 
+  const trimmedSearch = search.trim().toLowerCase();
+
   const filteredNotes = notes.filter(note =>
-    note.title.toLowerCase().includes(search.toLowerCase()) ||
-    note.tags.some(tag => tag.toLowerCase().includes(search.toLowerCase()))
+    note.title.toLowerCase().includes(trimmedSearch) ||
+    note.tags.some(tag => tag.toLowerCase().includes(trimmedSearch))
   );
+
 
   const ongoing = filteredNotes.filter(note => !note.completed);
   const completed = filteredNotes.filter(note => note.completed);
