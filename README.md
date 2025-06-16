@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 📝 QuickNotes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and efficient browser-based note-taking web application built with React.js, designed to help users manage tasks with tagging, due dates, and completion tracking — all with a clean UI and offline support using LocalStorage.
 
-## Available Scripts
+## 🔗 Live Demo
+🌐 [QuickNotes Web App](https://quicknotes-vert.vercel.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ **Add, Search and Delete Notes**
+- 🔍 **Search and Filter by Title or Tags**
+- 🏷️ **Tagging Support for Categorizing Notes**
+- 📅 **Set Due Dates via Calendar Picker**
+- ⏳ **Mark Tasks as Completed**
+- 📂 **Separate Ongoing and Completed Task Sections**
+- ⚠️ **Overdue Task Highlighting**
+- 🧹 **Auto-removal of Completed Tasks after 2 Days**
+- 💾 **Data Persistence via LocalStorage**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: React.js (with Hooks: useState and useEffect)
+- **Styling**: CSS3
+- **Data Storage**: Browser `localStorage`
+- **Deployment**: Vercel
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+quicknotes/
+│
+├── public/
+│   └── QuickyNotes.jpg          # App icon/logo
+│
+├── src/
+│   ├── components/
+│   │   ├── NoteForm.js          # Form to add new notes
+│   │   ├── NoteList.js          # Displays ongoing & completed notes
+│   │   └── SearchBar.js         # Search/filter component
+│   │
+│   ├── App.js                   # Main component logic
+│   ├── index.js                 # Entry point
+│   └── styles.css               # App styling
+│
+├── package.json
+└── README.md
