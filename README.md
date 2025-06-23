@@ -1,4 +1,4 @@
-# 📝 QuickNotes
+# 📝 QuickyNotes
 
 A simple and efficient browser-based note-taking web application built with React.js, designed to help users manage tasks with tagging, due dates, and completion tracking — all with a clean UI and offline support using LocalStorage.
 
